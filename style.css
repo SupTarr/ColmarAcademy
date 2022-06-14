@@ -1,5 +1,5 @@
 * {
-    margin: 0px auto;
+    margin: 0px;
 }
 
 body {
@@ -229,4 +229,9 @@ header img {
 
 #start-learning-mobile {
     display: none;
+}
+
+#thesis {
+    position: relative;
+    top: 64px;
 }
