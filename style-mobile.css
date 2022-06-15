@@ -126,6 +126,8 @@
     #thesis-mobile h1 {
         margin-top: 32px;
         margin-bottom: 16px;
+        text-align: center;
+        font-size: 2rem;
     }
 
 }

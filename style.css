@@ -2,6 +2,10 @@
     margin: 0px;
 }
 
+html {
+    border-bottom: #d8d8d8 2px solid;
+}
+
 body {
     font-family: 'Avenir Next LT Pro', sans-serif;
     max-width: 1280px;
@@ -123,12 +127,12 @@ header img {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 8px 16px 24px;
 }
 
 #content-right div {
     display: flex;
     align-content: center;
+    padding: 16px 16px 16px 16px;
 }
 
 #content-right div img {
@@ -140,6 +144,10 @@ header img {
     width: 65%;
     flex-direction: column;
     justify-content: center;
+}
+
+#content-right-color {
+    background-color: #d8d8d8;
 }
 
 #content-right-text {
@@ -156,7 +164,6 @@ header img {
     font-size: 0.85rem;
 }
 
-
 #read-more {
     font-size: 0.75rem;
     color: #7ea3d1;
@@ -171,8 +178,10 @@ header img {
     justify-content: space-between;
     flex-direction: column;
     position: relative;
-    margin: 32px 40px 32px 72px;
+    padding: 32px 72px 32px 72px;
+    margin-top: 32px;
     top: 64px;
+    background-color: #eaebec;
 }
 
 #start-learning h2 {
@@ -180,7 +189,6 @@ header img {
     display: block;
     width: 100%;
     margin-bottom: 32px;
-    margin-top: 32px;
 }
 
 #start-learning-line1 {
@@ -194,11 +202,13 @@ header img {
     flex-direction: column;
     justify-content: flex-start;
     margin-right: 32px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
+    background-color: white;
 }
 
 #start-learning-line1 div img {
     width: 100%;
+    
 }
 
 #start-learning-line2 {
@@ -208,11 +218,12 @@ header img {
 }
 
 #start-learning-line2 div {
-    margin-top: 32px;
     margin-right: 32px;
+    margin-bottom: 16px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    background-color: white;
 }
 
 #start-learning-line2 div img {
@@ -221,7 +232,7 @@ header img {
 
 #start-learning-text {
     text-align: left;
-    margin-top: 8px;
+    margin-top: 16px;
     margin-bottom: 8px;
     margin-left: 16px;
 }
