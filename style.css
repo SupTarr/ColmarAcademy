@@ -194,6 +194,7 @@ header img {
 #start-learning-line1 {
     display: flex;
     width: 100%;
+    margin-bottom: 16px;
     justify-content: space-between;
 }
 
@@ -201,9 +202,12 @@ header img {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-right: 32px;
-    margin-bottom: 16px;
     background-color: white;
+}
+
+#start-learning-line1-center {
+    margin-left: 32px;
+    margin-right: 32px;
 }
 
 #start-learning-line1 div img {
@@ -218,12 +222,16 @@ header img {
 }
 
 #start-learning-line2 div {
-    margin-right: 32px;
     margin-bottom: 16px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     background-color: white;
+}
+
+#start-learning-line2-center {
+    margin-left: 32px;
+    margin-right: 32px;
 }
 
 #start-learning-line2 div img {
