@@ -19,5 +19,5 @@ This project was created with:
 Clone the project
 
 ```bash
-  git clone https://github.com/SupTarr/ColmarAcademy.git
+git clone https://github.com/SupTarr/ColmarAcademy.git
 ```
