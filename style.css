@@ -185,7 +185,7 @@ header img {
 
 #start-learning {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
   padding: 32px 72px 32px 72px;
   background-color: #eaebec;
@@ -205,11 +205,12 @@ header img {
   justify-content: space-between;
 }
 
-#start-learning-line1 div {
+#start-learning-line1 > div {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   background-color: white;
+  max-width: 400px;
 }
 
 #start-learning-line1-center {
@@ -219,6 +220,7 @@ header img {
 
 #start-learning-line1 div img {
   width: 100%;
+  height: auto;
 }
 
 #start-learning-line2 {
@@ -227,11 +229,12 @@ header img {
   justify-content: space-between;
 }
 
-#start-learning-line2 div {
+#start-learning-line2 > div {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   background-color: white;
+  max-width: 400px;
 }
 
 #start-learning-line2-center {
@@ -241,6 +244,7 @@ header img {
 
 #start-learning-line2 div img {
   width: 100%;
+  height: auto;
 }
 
 .start-learning-text {
