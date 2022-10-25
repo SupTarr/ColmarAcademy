@@ -1,6 +1,15 @@
 @media screen and (max-width: 800px) {
+  * {
+    margin: 0px;
+  }
+
   html {
     font-size: 16px;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
   }
 
   header {
@@ -22,37 +31,42 @@
   }
 
   #banner-container {
+    display: none;
+  }
+
+  #banner-container-mobile {
+    display: flex;
     top: 0px;
     font-size: 24px;
     flex-direction: column;
-    padding: 0px 0px 32px;
   }
 
-  #banner-container img {
+  #banner-container-mobile img {
     width: 100%;
   }
 
-  #banner-container #banner-text {
+  #banner-container-mobile #banner-mobile-text {
     width: 100%;
-    margin-left: 0px;
-    padding: 32px 16px 0px;
-    left: 0px;
+    margin: 8px 0px 0px;
   }
 
-  #banner-container #banner-text h1 {
-    margin: 0px;
+  #banner-container-mobile #banner-mobile-text h1 {
+    margin-left: 16px;
+    margin-right: 16px;
   }
 
-  #banner-container #banner-text p {
+  #banner-container-mobile #banner-mobile-text p {
     margin-top: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 
-  #banner-container #banner-text button {
+  #banner-container-mobile > #banner-mobile-text > button {
     margin-top: 24px;
-  }
-
-  #banner-text {
-    width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: block;
+    width: calc(100% - 32px);
   }
 
   #content {

@@ -47,6 +47,10 @@ header img {
   display: none;
 }
 
+#banner-container-mobile {
+  display: none;
+}
+
 #banner-container {
   display: flex;
   align-items: center;
@@ -91,7 +95,7 @@ header img {
 #content {
   display: flex;
   background-color: white;
-  max-width: 1278px;
+  max-width: 1280px;
   margin: auto;
 }
 
