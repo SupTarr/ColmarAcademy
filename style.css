@@ -8,7 +8,7 @@ html {
 
 body {
     font-family: 'Avenir Next LT Pro', sans-serif;
-    max-width: 1280px;
+    max-width: 1000px;
     margin: auto;
   }
 
@@ -19,6 +19,7 @@ header {
     background-color: white;
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 64px;
     z-index: 1;
 }
