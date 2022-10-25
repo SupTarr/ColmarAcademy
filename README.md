@@ -1,10 +1,23 @@
 # ColmarAcademy
 
-You are tasked with designing and creating the landing page for a new school. You will help them by making informed design decisions about color and typography using the skills you learned last week. You will then implement your design.
+## About The Project
 
-For this project we will provide you with wireframes. A wireframe is a document which contains the positioning of the elements on a page without specifying any other design information. This allows designers and developers to focus on the flow of a site without getting distracted with design decisions such as color and typography. These aspects of the design are important, but when they are introduced too early, they can detract from other important decisions.
+This project was completed as part of `Codecademy's Build a Website with HTML, CSS, and Github Pages Path`. This was the learn how to build websites capstone project, in which I applied everything I had learned to build a responsive site from scratch. I am tasked with designing and creating the landing page for a new school.
 
-For this project you will implement the site specified by the wireframes and make all remaining design decisions to complete the site. You can find the wireframes for this project here and all of the necessary assets for the
+For this project you will implement the site specified by the wireframes and make all remaining design decisions to complete the site. You can find the wireframes for this project [here](https://content.codecademy.com/courses/freelance-1/capstone-2/colmar-academy-spec.png).
 
-### https://suptarr.github.io/ColmarAcademy/
-![colmar-academy-spec](https://user-images.githubusercontent.com/74394547/174099930-9ee8ed6d-ebfd-4549-b4a9-ca83cefffeb2.png)
+## Technologies
+
+This project was created with:
+
+- HTML5
+- CSS3
+
+## Installation
+### Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/SupTarr/ColmarAcademy.git
+```
