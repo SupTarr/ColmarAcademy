@@ -19,6 +19,6 @@ This project was created with:
 
 Clone the project
 
-```console
+```sh
 git clone https://github.com/SupTarr/ColmarAcademy.git
 ```
