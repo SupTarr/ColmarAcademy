@@ -54,7 +54,7 @@ header img {
 #banner-container {
   display: flex;
   align-items: center;
-  padding: 64px 0px 32px 24px;
+  padding: 64px 0px 32px 0px;
   background-color: #d7d7d7;
   max-width: 1280px;
   margin: 0 auto;
@@ -63,6 +63,7 @@ header img {
 #banner-container img {
   width: 60%;
   padding-top: 32px;
+  margin-left: 24px;
 }
 
 #banner-container #banner-text {
@@ -90,6 +91,8 @@ header img {
   border: unset;
   padding: 8px 0px;
   margin-top: 24px;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 #content {
@@ -191,7 +194,7 @@ header img {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 32px 72px 32px 72px;
+  padding: 32px 0px 32px 0px;
   background-color: #eaebec;
   max-width: 1280px;
   margin: 0 auto;
@@ -204,8 +207,10 @@ header img {
 
 #start-learning-line1 {
   display: flex;
-  width: 100%;
+  width: calc(100% - 144px);
   margin-bottom: 32px;
+  margin-left: 72px;
+  margin-right: 72px;
   justify-content: space-between;
 }
 
@@ -214,7 +219,6 @@ header img {
   flex-direction: column;
   justify-content: flex-start;
   background-color: white;
-  max-width: 400px;
 }
 
 #start-learning-line1-center {
@@ -229,7 +233,9 @@ header img {
 
 #start-learning-line2 {
   display: flex;
-  width: 100%;
+  width: calc(100% - 144px);
+  margin-left: 72px;
+  margin-right: 72px;
   justify-content: space-between;
 }
 
@@ -253,16 +259,18 @@ header img {
 
 .start-learning-text {
   text-align: left;
-  margin: 16px 16px 16px 16px;
+  padding: 16px 16px 16px 16px;
 }
 
 .start-learning-text h2 {
   margin-bottom: 16px;
+  font-size: 1.25rem;
 }
 
 .start-learning-text p {
   margin-top: 8px;
   margin-bottom: 8px;
+  font-size: 0.75rem;
 }
 
 #start-learning-mobile {
@@ -347,13 +355,13 @@ footer {
   margin: 0 auto;
   padding-top: 16px;
   padding-bottom: 16px;
-  border-top: #d7d7d7 1px solid;
+  border-top: #d7d7d7 2px solid;
 }
 
 #commercial {
   display: flex;
   margin: 0px auto;
-  width: 500px;
+  min-width: 500px;
   margin-left: 24px;
 }
 

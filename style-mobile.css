@@ -39,6 +39,8 @@
     top: 0px;
     font-size: 24px;
     flex-direction: column;
+    padding-top: 64px;
+    background-color: #d7d7d7;
   }
 
   #banner-container-mobile img {
@@ -53,20 +55,32 @@
   #banner-container-mobile #banner-mobile-text h1 {
     margin-left: 16px;
     margin-right: 16px;
+    margin-top: 32px;
+    font-size: 1.75rem;
+    font-weight: 750;
   }
 
   #banner-container-mobile #banner-mobile-text p {
     margin-top: 32px;
     margin-left: 16px;
     margin-right: 16px;
+    font-size: 1.25rem;
+    font-weight: 700;
   }
 
   #banner-container-mobile > #banner-mobile-text > button {
     margin-top: 24px;
+    margin-bottom: 32px;
     margin-left: 16px;
     margin-right: 16px;
     display: block;
     width: calc(100% - 32px);
+    color: white;
+    background-color: #4a4a4a;
+    border: unset;
+    padding: 8px 0px;
+    font-size: 1rem;
+    font-weight: 700;
   }
 
   #content {
@@ -77,6 +91,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    border-bottom: #d7d7d7 2px solid;
   }
 
   #content-mobile img {
@@ -87,7 +102,8 @@
   }
 
   .content-mobile-text {
-    padding: 32px 0px 16px 16px;
+    padding: 32px 16px 24px 16px;
+    margin: 0px 16px;
   }
 
   .content-mobile-text p {
@@ -102,22 +118,23 @@
   #start-learning-mobile {
     display: block;
     width: 100%;
-    margin-bottom: 24px;
+    padding-bottom: 32px;
+    border-bottom: #d7d7d7 2px solid;
   }
 
   #start-learning-mobile h1 {
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 16px;
+    margin: 32px auto 16px;
   }
 
   #start-learning-mobile p {
     font-size: 1.25rem;
     text-align: left;
     background-color: #d8d8d8;
-    padding: 16px 0px 24px 16px;
+    padding: 16px 16px 24px 16px;
     margin: 0px 16px 8px 16px;
-    font-weight: 500;
+    font-weight: 600;
   }
 
   #thesis {
@@ -134,6 +151,7 @@
 
   #thesis-mobile {
     display: block;
+    padding-bottom: 24px;
   }
 
   #thesis-mobile h1 {
@@ -141,5 +159,9 @@
     margin-bottom: 16px;
     text-align: center;
     font-size: 2rem;
+  }
+
+  #commercial {
+    font-size: 0.75rem;
   }
 }
