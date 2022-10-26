@@ -1,4 +1,4 @@
-# ColmarAcademy
+# Colmar Academy
 
 ## About The Project
 
