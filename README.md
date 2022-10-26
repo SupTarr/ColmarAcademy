@@ -12,12 +12,13 @@ This project was created with:
 
 - HTML5
 - CSS3
+- Git, GitHub and GitHub Pages
 
 ## Installation
 ### Run Locally
 
 Clone the project
 
-```bash
+```console
 git clone https://github.com/SupTarr/ColmarAcademy.git
 ```
