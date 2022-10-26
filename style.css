@@ -351,8 +351,9 @@ header img {
 
 footer {
   display: flex;
+  font-size: 0.75rem;
+  justify-content: space-between;
   max-width: 1280px;
-  margin: 0 auto;
   padding-top: 16px;
   padding-bottom: 16px;
   border-top: #d7d7d7 2px solid;
@@ -360,21 +361,18 @@ footer {
 
 #commercial {
   display: flex;
-  margin: 0px auto;
-  min-width: 500px;
   margin-left: 24px;
 }
 
 #term {
   display: flex;
-  width: 100%;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 15px;
+  padding-right: 24px;
 }
 
 #term p {
-  margin-left: 15px;
+  margin-left: 24px;
 }
 
 #thesis-mobile {

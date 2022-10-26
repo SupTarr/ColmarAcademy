@@ -163,5 +163,6 @@
 
   #commercial {
     font-size: 0.75rem;
+    min-width: none;
   }
 }
