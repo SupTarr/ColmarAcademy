@@ -12,6 +12,7 @@ body {
   margin: 0 auto;
 }
 
+/* Desktop browser menu */
 header {
   position: fixed;
   top: 0px;
@@ -49,6 +50,7 @@ header img {
   display: none;
 }
 
+/* Top Banner Desktop */
 #banner-container-mobile {
   display: none;
 }
@@ -97,6 +99,7 @@ header img {
   font-weight: 700;
 }
 
+/* Information Desktop */
 #content {
   display: flex;
   background-color: white;
@@ -192,6 +195,7 @@ header img {
   display: none;
 }
 
+/* Start learning */
 #start-learning {
   display: flex;
   justify-content: center;
@@ -279,6 +283,7 @@ header img {
   display: none;
 }
 
+/* Thesis Desktop */
 #thesis {
   display: flex;
   flex-direction: row;
@@ -351,6 +356,7 @@ header img {
   flex-direction: column;
 }
 
+/* Footer */
 footer {
   display: flex;
   font-size: 0.75rem;

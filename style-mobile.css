@@ -16,6 +16,7 @@
     display: none;
   }
 
+  /* Mobile menu */
   #menu-mobile {
     position: fixed;
     background-color: white;
@@ -30,6 +31,7 @@
     z-index: 2;
   }
 
+  /* Top Banner Mobile */
   #banner-container {
     display: none;
   }
@@ -83,6 +85,7 @@
     font-weight: 700;
   }
 
+  /* Information Mobile */
   #content {
     display: none;
   }
@@ -111,6 +114,7 @@
     margin-bottom: 8px;
   }
 
+  /* Start learning Mobile */
   #start-learning {
     display: none;
   }
@@ -137,15 +141,12 @@
     font-weight: 600;
   }
 
+  /* Thesis Mobile */
   #thesis {
     display: none;
   }
 
   .thesis-title {
-    display: none;
-  }
-
-  #term {
     display: none;
   }
 
@@ -159,6 +160,11 @@
     margin-bottom: 16px;
     text-align: center;
     font-size: 2rem;
+  }
+
+  /* Footer */
+  #term {
+    display: none;
   }
 
   #commercial {
